@@ -3,7 +3,8 @@ const webpack = require('webpack')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 // dll文件存放的目录
-const dllPath = '../dll'
+const package = require('../package.json')
+const dllPath = `../dll/${package.version}`
 
 module.exports = {
   entry: {
