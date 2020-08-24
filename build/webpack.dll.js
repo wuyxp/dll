@@ -12,9 +12,16 @@ module.exports = {
     'vue': [
       'vue',
       'vue-router',
-      // 'vuex',
+      'vuex',
       'axios'
-    ]
+    ],
+    'element': [
+      'element-ui'
+    ],
+    'echarts': [
+      'echarts'
+    ],
+    
   },
   output: {
     path: path.join(__dirname, dllPath),
